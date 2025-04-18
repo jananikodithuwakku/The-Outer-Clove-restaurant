@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-color: blueviolet;
+}
+
+.logo {
+    margin-bottom: 20px; 
+}
+
+.logo img {
+    height: 100px;
+    position: static;
+}
+
+h1 {
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+    text-align: center; 
+    color: rgb(48, 28, 28); 
+}
+.dachboard
+{
+    text-align: center;
+    font-family: 'Cambria', sans-serif;
+
+}

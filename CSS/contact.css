@@ -1,0 +1,138 @@
+header 
+{
+    width: 98%;
+    height: 20vh;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img
+{
+    height: 100px;
+    
+}
+h1
+{
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+}    
+
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li
+{
+    margin-right: 20px;
+}
+nav a
+{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.contact-us {
+    background-color: #f0e296;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.contact-us h2 {
+    color: #333;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #dd8c75;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+.contact-content {
+    text-align: center;
+  }
+  
+  .contact-content p {
+    margin: 10px 0;
+  }
+  
+  .image-container {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .img {
+    max-width: 75px; 
+    height: auto;
+  }
+  
+  .image-text {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+footer {
+    background-color: #af9c2d;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    position:static;
+    width: 100%;
+    bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0.5em;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 0.5em;
+    }
+}

@@ -1,0 +1,166 @@
+header 
+{
+    width: 98%;
+    height: 20vh;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img
+{
+    height: 100px;
+    
+}
+h1
+{
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+}    
+
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li
+{
+    margin-right: 20px;
+}
+nav a
+{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.banner-card
+{
+    display: flex;
+}
+
+.banner-card img{
+    width: 50%;
+    height: auto;
+}
+.banner-text
+{
+    flex: 1;
+    padding: 20px;
+    text-align: center; 
+}
+.banner-text h4
+{
+    margin: 0;
+    padding: 10px;
+    color: #2e2121;
+}
+
+.banner-text p
+{
+    margin: 0;
+    padding: 10px;
+    color: #201a1a;
+    font-size: 30px;
+}
+
+.banner-text btn
+{
+    margin: 0;
+    padding: 10px;
+    color: #251b1b;
+}
+
+.offer {
+    background-color: #aeaf5d;
+    padding: 80px 20px;
+    text-align: center;
+}
+.offer button {
+    background-color: #aeaf5d; 
+    color: #140202; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.offer button:hover {
+    background-color: #aeaf5d; 
+}
+
+.offer h2 {
+    color: #333;
+}
+
+.offer-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.offer-item {
+    width: 300px;
+    margin: 20px;
+}
+
+.offer-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.offer-item h3 {
+    margin-top: 10px;
+}
+
+.reservation {
+    background-color: #d1d6b5;
+    color: black;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.reservation h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #af9c2d;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    position:static;
+    width: 100%;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0.5em;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 0.5em;
+    }
+}
+
+
+
+

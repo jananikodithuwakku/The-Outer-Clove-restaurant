@@ -1,0 +1,292 @@
+header 
+{
+    width: 98%;
+    height: 20vh;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img
+{
+    height: 100px;
+    
+}
+h1
+{
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+}    
+
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li
+{
+    margin-right: 20px;
+}
+nav a
+{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+h2
+{
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu-item h2 {
+    color: #333;
+}
+
+.menu-smoothies {
+    flex: 1;
+}
+
+.menu-smoothies img {
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu-item h2 {
+    color: #333;
+}
+
+.menu-coffee {
+    flex: 1;
+}
+
+.menu-coffee img {
+    width: 100%;
+    height: auto;
+}
+
+.breakfast {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-breakfast {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu-breakfast h2 {
+    color: #333;
+}
+
+.menu-bk {
+    flex: 1;
+}
+
+.menu-bk img {
+    width: 100%;
+    height: auto;
+}
+
+.lunch {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-lunch{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu-lunch h2 {
+    color: #333;
+}
+
+.menu-lu {
+    flex: 1;
+}
+
+.menu-lu img {
+    width: 100%;
+    height: auto;
+}
+
+.dinner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-dinner{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu-dinner h2 {
+    color: #333;
+}
+
+.menu-di {
+    flex: 1;
+}
+
+.menu-di img {
+    width: 100%;
+    height: auto;
+}
+
+.seefood {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-seefood{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu-seefood h2 {
+    color: #333;
+}
+
+.menu-sf {
+    flex: 1;
+}
+
+.menu-sf img {
+    width: 100%;
+    height: auto;
+}
+
+.salad {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-salad{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu-salad h2 {
+    color: #333;
+}
+
+.menu-sa {
+    flex: 1;
+}
+
+.menu-sa img {
+    width: 100%;
+    height: auto;
+}
+
+.snacks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-snacks{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu-snacks h2 {
+    color: #333;
+}
+
+.menu-sn {
+    flex: 1;
+}
+
+.menu-sn img {
+    width: 100%;
+    height: auto;
+}
+
+.cookie {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-cookie{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu-cookie h2 {
+    color: #333;
+}
+
+.menu-cc {
+    flex: 1;
+}
+
+.menu-cc img {
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #af9c2d;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    position:static;
+    width: 100%;
+    bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0.5em;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 0.5em;
+    }
+}

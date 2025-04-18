@@ -1,0 +1,127 @@
+header 
+{
+    width: 98%;
+    height: 20vh;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img
+{
+    height: 100px;
+    
+}
+h1
+{
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+}    
+
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li
+{
+    margin-right: 20px;
+}
+nav a
+{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+
+
+.about-us h2 {
+    color: #333;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+
+
+.h3 {
+    color: #333;
+    text-align: center;
+}
+
+
+
+.team-member h4 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.team-member p {
+    color: #050000;
+    font-weight: bold;
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    width: 20%; 
+    margin-bottom: 20px;
+  }
+  
+  .team-member img {
+    max-width: 75%;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .team-member {
+      width: 75%;
+    }
+  }
+  
+footer {
+    background-color: #af9c2d;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    position:static;
+    width: 100%;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0.5em;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 0.5em;
+    }
+}
